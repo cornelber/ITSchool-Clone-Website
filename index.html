@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT School - Clonă Website</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="scrolling w-100 my-bg-primary">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="https://www.itschool.ro/img/logo-white.png"
+              alt="itschool logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="./pages/courses.html"
+                >
+                  Cursuri online
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  aria-current="page"
+                  href="#"
+                  id="dropdown-ITSchool"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Despre noi
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="dropdown-ITSchool"
+                >
+                  <li>
+                    <a class="dropdown-item" href="index.html">IT School</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pages/about.html">
+                      Despre noi
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="./pages/contact.html"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <section class="welcome-banner my-bg-primary d-flex align-items-center">
+        <div class="container">
+          <div class="hero-content col-lg-12 text-white">
+            <h1 class="hero-content_title fw-bolder fs-1">Bine ai venit!</h1>
+            <p class="hero-content_subtitle">
+              Accelerator de cariere in
+              <span class="text-warning">{</span>
+              web development
+              <span class="text-warning">}</span>
+            </p>
+            <div class="hero-content-cert mb-5 d-flex">
+              <p>Cursuri IT pentru incepatori cu certificare</p>
+              <div class="hero-content_cert_images">
+                <img
+                  src="https://www.itschool.ro/temp/L-micro.png"
+                  alt="microsoft"
+                />
+                <img
+                  src="https://www.itschool.ro/temp/L-adobe.png"
+                  alt="adobe"
+                />
+                <img
+                  src="https://www.itschool.ro/temp/L-apple.png"
+                  alt="apple"
+                />
+                <img
+                  src="https://www.itschool.ro/temp/siglame.png"
+                  alt="ministerul educatiei nationale"
+                />
+              </div>
+            </div>
+            <a
+              class="btn btn-primary text-uppercase hero-content_btn"
+              href="#"
+              role="button"
+            >
+              Afla mai multe
+            </a>
+          </div>
+        </div>
+        <div class="color-overlay"></div>
+      </section>
+      <!-- /.welcome-banner -->
+      <section class="calendar">
+        <div class="container">
+          <div class="row pt-5 mb-4">
+            <div class="col text-center">
+              <h2 class="calendar-title fw-bolder">Calendar cursuri</h2>
+            </div>
+          </div>
+          <div class="row pb-5">
+            <div class="px-2 col-xl-4 col-lg-6 col-md-6">
+              <div class="card mb-3 p-1">
+                <div class="card-body">
+                  <h3 class="card-title mb-3">Python</h3>
+                  <div class="card-details d-flex mb-5">
+                    <span class="date d-flex p-1 align-items-end">
+                      <span class="material-icons">today</span>
+                      <p class="card-text ms-1">In curand</p>
+                    </span>
+                    <span
+                      class="place d-flex p-1 ms-2 bg-warning align-items-end"
+                    >
+                      <span class="material-icons">location_on</span>
+                      <p class="card-text ms-1">Online</p>
+                    </span>
+                  </div>
+                </div>
+                <div class="bar align-self-center"></div>
+              </div>
+            </div>
+            <div class="px-2 col-xl-4 col-lg-6 col-md-6">
+              <div class="card mb-3 p-1">
+                <div class="card-body">
+                  <h3 class="card-title mb-3">Web Development</h3>
+                  <div class="card-details d-flex mb-5">
+                    <span class="date d-flex p-1 align-items-end">
+                      <span class="material-icons">today</span>
+                      <p class="card-text ms-1">In curand</p>
+                    </span>
+                    <span
+                      class="place d-flex p-1 ms-2 bg-warning align-items-end"
+                    >
+                      <span class="material-icons">location_on</span>
+                      <p class="card-text ms-1">Online</p>
+                    </span>
+                  </div>
+                </div>
+                <div class="bar align-self-center"></div>
+              </div>
+            </div>
+            <div class="px-2 col-xl-4 col-lg-6 col-md-6">
+              <div class="card mb-3 p-1">
+                <div class="card-body">
+                  <h3 class="card-title mb-3">Introducere in IT</h3>
+                  <div class="card-details d-flex mb-5">
+                    <span class="date d-flex p-1 align-items-end">
+                      <span class="material-icons">today</span>
+                      <p class="card-text ms-1">In curand</p>
+                    </span>
+                    <span
+                      class="place d-flex p-1 ms-2 bg-warning align-items-end"
+                    >
+                      <span class="material-icons">location_on</span>
+                      <p class="card-text ms-1">Online</p>
+                    </span>
+                  </div>
+                </div>
+                <div class="bar align-self-center"></div>
+              </div>
+            </div>
+            <div class="px-2 col-xl-4 col-lg-6 col-md-6">
+              <div class="card mb-3 p-1">
+                <div class="card-body">
+                  <h3 class="card-title mb-3">Programare C++</h3>
+                  <div class="card-details d-flex mb-5">
+                    <span class="date d-flex p-1 align-items-end">
+                      <span class="material-icons">today</span>
+                      <p class="card-text ms-1">In curand</p>
+                    </span>
+                    <span
+                      class="place d-flex p-1 ms-2 bg-warning align-items-end"
+                    >
+                      <span class="material-icons">location_on</span>
+                      <p class="card-text ms-1">Online</p>
+                    </span>
+                  </div>
+                </div>
+                <div class="bar align-self-center"></div>
+              </div>
+            </div>
+            <div class="px-2 col-xl-4 col-lg-6 col-md-6">
+              <div class="card mb-3 p-1">
+                <div class="card-body">
+                  <h3 class="card-title mb-3">Programare Java</h3>
+                  <div class="card-details d-flex mb-5">
+                    <span class="date d-flex p-1 align-items-end">
+                      <span class="material-icons">today</span>
+                      <p class="card-text ms-1">In curand</p>
+                    </span>
+                    <span
+                      class="place d-flex p-1 ms-2 bg-warning align-items-end"
+                    >
+                      <span class="material-icons">location_on</span>
+                      <p class="card-text ms-1">Online</p>
+                    </span>
+                  </div>
+                </div>
+                <div class="bar align-self-center"></div>
+              </div>
+            </div>
+            <div class="px-2 col-xl-4 col-lg-6 col-md-6">
+              <div class="card mb-3 p-1">
+                <div class="card-body">
+                  <h3 class="card-title mb-3">Graphic Design</h3>
+                  <div class="card-details d-flex mb-5">
+                    <span class="date d-flex p-1 align-items-end">
+                      <span class="material-icons">today</span>
+                      <p class="card-text ms-1">In curand</p>
+                    </span>
+                    <span
+                      class="place d-flex p-1 ms-2 bg-warning align-items-end"
+                    >
+                      <span class="material-icons">location_on</span>
+                      <p class="card-text ms-1">Online</p>
+                    </span>
+                  </div>
+                </div>
+                <div class="bar align-self-center"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.calendar -->
+      <section class="about">
+        <div class="container">
+          <div class="row d-flex flex-column text-center">
+            <div class="col-12 pt-5 mb-4">
+              <h2 class="fw-bolder">Ce este IT School?</h2>
+            </div>
+            <div class="col-12 mb-4">
+              <p>
+                IT School este o comunitate educațională de IT, locul unde
+                pasionații acestui domeniu se întâlnesc cu viitorii
+                profesioniști. Timp de peste 7 ani, am construit alături de
+                trainerii IT School un mediu de învățare specializat pentru toți
+                cei care își doresc să descopere oportunitățile acestui domeniu.
+                Ești pregătit să faci parte din comunitatea IT School?
+              </p>
+            </div>
+          </div>
+          <div class="gallery row pb-5">
+            <div class="col-xl-4 col-lg-6 col-md-6">
+              <img
+                src="https://www.itschool.ro/temp/itschool-3.jpg"
+                alt="ITSchool Gallery"
+              />
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+              <img
+                src="https://www.itschool.ro/temp/web3.jpg"
+                alt="ITSchool Gallery"
+              />
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+              <img
+                src="https://www.itschool.ro/temp/itschool-1.jpg"
+                alt="ITSchool Gallery"
+              />
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+              <img
+                src="https://www.itschool.ro/temp/itschool-6.jpg"
+                alt="ITSchool Gallery"
+              />
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+              <img
+                src="https://www.itschool.ro/temp/itschool-5.jpg"
+                alt="ITSchool Gallery"
+              />
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+              <img
+                src="https://www.itschool.ro/temp/itschool-2.jpg"
+                alt="ITSchool Gallery"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.about -->
+      <section class="partners">
+        <div class="container">
+          <div class="row pt-5 mb-4">
+            <div class="col text-center">
+              <h2 class="calendar-title fw-bolder">Parteneri</h2>
+            </div>
+          </div>
+          <div
+            class="partners-list row justify-content-center text-center mb-4"
+          >
+            <div
+              class="col-xl-2 p-0 mx-2 mb-2 col-lg-2 col-md-3 col-sm-4 col-4"
+            >
+              <img
+                src="https://www.itschool.ro/img/parteneri/homepage/toluna.png"
+                alt="Partners"
+              />
+            </div>
+            <div
+              class="col-xl-2 p-0 mx-2 mb-2 col-lg-2 col-md-3 col-sm-4 col-4"
+            >
+              <img
+                src="https://www.itschool.ro/img/parteneri/homepage/123formbuilder.png"
+                alt="Partners"
+              />
+            </div>
+            <div
+              class="col-xl-2 p-0 mx-2 mb-2 col-lg-2 col-md-3 col-sm-4 col-4"
+            >
+              <img
+                src="https://www.itschool.ro/img/parteneri/homepage/nagarro.png"
+                alt="Partners"
+              />
+            </div>
+            <div
+              class="col-xl-2 p-0 mx-2 mb-2 col-lg-2 col-md-3 col-sm-4 col-4"
+            >
+              <img
+                src="https://www.itschool.ro/img/parteneri/homepage/sv.png"
+                alt="Partners"
+              />
+            </div>
+            <div
+              class="col-xl-2 p-0 mx-2 mb-2 col-lg-2 col-md-3 col-sm-4 col-4"
+            >
+              <img
+                src="https://www.itschool.ro/img/parteneri/homepage/dreamproduction.png"
+                alt="Partners"
+              />
+            </div>
+            <div
+              class="col-xl-2 p-0 mx-2 mb-2 col-lg-2 col-md-3 col-sm-4 col-4"
+            >
+              <img
+                src="https://www.itschool.ro/img/parteneri/homepage/ness.png"
+                alt="Partners"
+              />
+            </div>
+            <div
+              class="col-xl-2 p-0 mx-2 mb-2 col-lg-2 col-md-3 col-sm-4 col-4"
+            >
+              <img
+                src="https://www.itschool.ro/img/parteneri/homepage/instapage.png"
+                alt="Partners"
+              />
+            </div>
+            <div
+              class="col-xl-2 p-0 mx-2 mb-2 col-lg-2 col-md-3 col-sm-4 col-4"
+            >
+              <img
+                src="https://www.itschool.ro/img/parteneri/homepage/amdaris.png"
+                alt="Partners"
+              />
+            </div>
+            <div
+              class="col-xl-2 p-0 mx-2 mb-2 col-lg-2 col-md-3 col-sm-4 col-4"
+            >
+              <img
+                src="https://www.itschool.ro/img/parteneri/homepage/fortech.png"
+                alt="Partners"
+              />
+            </div>
+            <div
+              class="col-xl-2 p-0 mx-2 mb-2 col-lg-2 col-md-3 col-sm-4 col-4"
+            >
+              <img
+                src="https://www.itschool.ro/img/parteneri/homepage/visma.png"
+                alt="Partners"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.partners -->
+    </main>
+    <!-- Footer -->
+    <footer class="my-bg-primary w-100">
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-12 text-center py-3">
+            <p class="footer-info text-white m-0 p-0">
+              IT School România © 2021. Toate drepturile rezervate.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 150) {
+          $("header").removeClass("scrolling");
+        } else {
+          $("header").addClass("scrolling");
+        }
+      });
+    </script>
+  </body>
+</html>

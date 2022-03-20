@@ -1,0 +1,43 @@
+@media (max-width: 1400px) {
+  main .container {
+    padding: 0 16px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+main .contact {
+  background: var(--bg-primary) url("../img/secondPages-bg.png");
+  height: 50vh;
+}
+
+main .contact-form .list-group p {
+  font-size: var(--fs-medium);
+}
+
+main .contact-form .list-group .contact-btn {
+  font-size: var(--fs-medium);
+}
+
+main .contact-form .list-group .material-icons {
+  font-size: 22px !important;
+  height: 20px;
+  width: auto;
+}
+
+main .contact-form .form-group .form-btn {
+  width: 100px;
+  background: var(--button-color);
+  color: var(--text-white);
+  font-size: var(--fs-medium);
+  border: 2px solid var(--button-color);
+}
+
+main .contact-form .form-group .form-btn:hover {
+  background: transparent;
+  color: var(--button-color);
+}
+
+main .contact-form .form-group .form-label {
+  font-size: var(--fs-medium);
+}

@@ -1,0 +1,43 @@
+@media (max-width: 1400px) {
+  main .container {
+    padding: 0 16px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .employee .card .card-body_customizable {
+    min-height: 100% !important;
+  }
+}
+
+main .about {
+  background: var(--bg-primary) url("../img/secondPages-bg.png");
+  height: 50vh;
+}
+
+main .employee .card .card-img_customizable {
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  top: -80px;
+  filter: grayscale(100%);
+}
+
+.employee .card .card-body_customizable {
+  position: relative;
+  padding-top: 50px;
+  min-height: 350px;
+}
+
+.employee .card .card-body .card-title_customizable {
+  background: rgba(20, 30, 76, 0.9);
+  color: var(--text-secondary);
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+.employee .card .card-body .card-text_custom {
+  font-size: var(--fs-medium);
+}

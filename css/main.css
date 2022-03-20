@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+:root {
+  /* colors */
+  --text-primary: #101d42;
+  --text-secondary: #fbb44c;
+  --text-dark: #2b2922;
+  --text-light: #eaeaea;
+  --text-white: #ffffff;
+  --bg-primary: #141e4c;
+  --bg-secondary: #dfedf5;
+  --bg-dark: #101d42;
+  --bg-light: #ffffff;
+  --button-color: #2bb686;
+  /* font-family */
+  --ff-primary: "Poppins", sans-serif;
+  /* font-size */
+  --fs-large: 1rem;
+  --fs-medium: 0.875rem;
+  --fs-small: 0.75rem;
+}
+
+body {
+  font-family: var(--ff-primary);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-primary);
+}
+
+@media (max-width: 1400px) {
+  header .container {
+    padding: 0 16px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.scrolling {
+  background: transparent !important;
+}
+
+header {
+  position: fixed;
+  z-index: 999;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main .material-icons {
+  font-size: 15px !important;
+  height: 17px;
+  width: auto;
+}
+
+.my-bg-primary {
+  background-color: var(--bg-dark);
+}
+
+nav .navbar-brand img {
+  height: 60px;
+  width: auto;
+}
+
+nav .navbar-nav .nav-item .nav-link,
+nav .navbar-nav .dropdown-item {
+  font-size: var(--fs-small);
+  text-transform: uppercase;
+  color: var(--text-light);
+}
+
+nav .navbar-nav .nav-item .nav-link:hover,
+nav .navbar-nav .dropdown-item:hover {
+  color: var(--text-secondary);
+  background-color: transparent;
+}
+
+nav .navbar-nav .dropdown-menu {
+  background-color: var(--bg-dark);
+}
+
+footer .footer-info {
+  font-size: var(--fs-small);
+}

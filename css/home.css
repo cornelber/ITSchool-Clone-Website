@@ -1,0 +1,113 @@
+/* media query */
+
+@media (max-width: 1400px) {
+  main .container {
+    padding: 0 16px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  main .hero-content .hero-content_cert {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .hero-content .hero-content-cert {
+    flex-direction: column;
+  }
+
+  main .hero-content .hero-content_cert_images img {
+    display: block;
+    margin: 1rem 0 0 0.5rem;
+    padding-left: 0 !important;
+  }
+
+  main .hero-content .hero-content_btn {
+    display: none;
+  }
+}
+
+/* welcome-section */
+
+main .welcome-banner {
+  background: var(--bg-primary) url("../img/backgroung-hero.jpg") no-repeat
+    center center/cover;
+  height: 100vh;
+}
+
+main .color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: var(--bg-primary);
+  opacity: 80%;
+  z-index: 1;
+}
+main .hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+main .hero-content .hero-content_cert_images img {
+  position: relative;
+  height: 24px;
+  width: auto;
+  padding-left: 1rem;
+}
+
+main .hero-content .hero-content_btn {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-medium);
+  border: 2px solid var(--button-color);
+  background: var(--button-color);
+  padding: 16px;
+  width: 260px;
+}
+
+main .hero-content .hero-content_btn:hover {
+  background: transparent;
+  color: var(--button-color);
+}
+
+/* calendar section */
+
+.calendar .card .card-body {
+  height: 155px;
+}
+
+.calendar .card .bar {
+  height: 0.25rem;
+  width: 100%;
+  background-color: var(--button-color);
+  border-radius: 10px;
+}
+
+.calendar .card .card-body {
+  font-size: var(--fs-medium);
+}
+
+/* about section */
+
+main .about {
+  background-color: var(--bg-secondary);
+}
+
+main .about .gallery img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+/* partners section */
+
+main .partners .partners-list img {
+  height: 100px;
+  width: auto;
+  filter: grayscale(100%);
+}
+
+main .partners .partners-list img:hover {
+  filter: grayscale(0);
+}

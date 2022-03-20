@@ -1,0 +1,35 @@
+@media (max-width: 1400px) {
+  main .container {
+    padding: 0 16px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+main .courses {
+  background: var(--bg-primary) url("../img/secondPages-bg.png");
+  height: 50vh;
+}
+
+.programs .customizable-card .customizable-card_body img {
+  height: 22.8px;
+}
+
+.programs .customizable-card .customizable-card_details {
+  font-size: var(--fs-medium);
+}
+
+.customizable-card .customizable-card_body .customizable-card_details-btn {
+  padding: 4px;
+  width: 100px;
+  font-size: var(--fs-medium);
+  background-color: var(--button-color);
+  border: 2px solid var(--button-color);
+}
+
+.customizable-card
+  .customizable-card_body
+  .customizable-card_details-btn:hover {
+  color: var(--button-color);
+  background-color: transparent;
+}
