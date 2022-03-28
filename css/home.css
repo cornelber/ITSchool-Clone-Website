@@ -97,13 +97,12 @@ main .about {
 main .about .gallery img {
   width: 100%;
   height: auto;
-  margin-bottom: 16px;
 }
 
 /* partners section */
 
 main .partners .partners-list img {
-  height: 100px;
+  height: 40px;
   width: auto;
   filter: grayscale(100%);
 }
