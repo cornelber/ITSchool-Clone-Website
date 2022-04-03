@@ -58,6 +58,7 @@ nav .navbar-toggler {
 @media (max-width: 991px) {
   nav .navbar-collapse {
     background-color: var(--bg-dark);
+    padding: 0 15px 0 15px;
   }
 }
 
